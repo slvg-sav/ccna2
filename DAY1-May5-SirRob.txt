@@ -204,7 +204,7 @@ config t
 	 end
    
 !!!CUCM ANALOG PHONES CONFIG
-configure terminal
+conf t
 dial-peer voice 1 pots
    destination-pattern 4100
    port 0/0/0
@@ -250,12 +250,12 @@ ephone-dn 8
 ephone-dn 10
  number 4198
 Ephone 1
-  Mac-address cafe.face.baba
+  Mac-address 204c.9e6c.e263
   type 8945
   button 1:8 2:7 3:6 4:5
   restart
 Ephone 2
-  Mac-address fafa.caca.baba
+  Mac-address ccd8.c1fa.ee43
   type 8945
   button 1:4 2:3 3:2 4:1
   restart  
